@@ -10,7 +10,7 @@ class NotesApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       home: const NotesView(),
@@ -19,12 +19,3 @@ class NotesApp extends StatelessWidget {
 }
 
 
-
-class NoteItem extends StatelessWidget {
-  const NoteItem({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
