@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:notes_app/views/widgets/custom_text_field.dart';
-
 import 'custom_button.dart';
 
 class AddNoteButtonSheet extends StatelessWidget {
