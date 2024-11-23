@@ -47,6 +47,9 @@ class _AddNotFormState extends State<AddNotForm> {
             hint: "Content",
             maxLines: 5,
           ),
+          const SizedBox(
+            height: 32,
+          ),
           const ColorListView(),
           const SizedBox(
             height: 32,
